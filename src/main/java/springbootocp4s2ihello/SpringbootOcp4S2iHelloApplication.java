@@ -17,7 +17,7 @@ public class SpringbootOcp4S2iHelloApplication {
 	
 	@RequestMapping(value="/hello", method = RequestMethod.GET)
 	public String getHello() {
-		return "Hello";
+		return "Hello World";
 	}
 
 }
