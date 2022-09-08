@@ -12,6 +12,7 @@ public class SpringbootOcp4S2iHelloApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootOcp4S2iHelloApplication.class, args);
+		System.out.println("Test1=======================");
 	}
 	
 	
