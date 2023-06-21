@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Configuration
 public class SpringbootOcp4S2iHelloApplication {
     
-	@Value("${spring.test.msg}")
+	@Value("${test.msg}")
         String msg;
 	
 	public static void main(String[] args) {
